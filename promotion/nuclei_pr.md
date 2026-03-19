@@ -19,7 +19,7 @@ info:
   author: swarmhawk-ai
   description: |
     Curated Nuclei template workflow for external web application assessment.
-    Designed for use with SwarmHawk (github.com/hastikdan/swarmhawk) but
+    Designed for use with SwarmHawk (github.com/hastikdan/swarmhawk-cli) but
     works standalone. Prioritises confirmed/critical templates to reduce
     false positives in automated pipelines.
   tags: workflow,web,assessment,automation
@@ -46,7 +46,7 @@ workflows:
 
 Adds a curated workflow YAML for external web application assessment, optimised for automated pipelines.
 
-This workflow is the template set used by SwarmHawk (https://github.com/hastikdan/swarmhawk), an open-source Python CLI that wraps nuclei with subdomain enumeration, CVE/EPSS enrichment, and AI synthesis. We run this workflow as part of the exploit detection phase and apply confidence thresholds to filter noise before generating client reports.
+This workflow is the template set used by SwarmHawk (https://github.com/hastikdan/swarmhawk-cli), an open-source Python CLI that wraps nuclei with subdomain enumeration, CVE/EPSS enrichment, and AI synthesis. We run this workflow as part of the exploit detection phase and apply confidence thresholds to filter noise before generating client reports.
 
 The template selection prioritises:
 - Confirmed/critical CVE templates
@@ -72,7 +72,7 @@ I built SwarmHawk — an open-source Python CLI that orchestrates subfinder, htt
 
 I'd love to write a technical post for the ProjectDiscovery blog showing how we integrate the toolchain and the specific Nuclei template selection/validation approach we use.
 
-GitHub: https://github.com/hastikdan/swarmhawk
+GitHub: https://github.com/hastikdan/swarmhawk-cli
 
 Would that be a fit for the blog?
 

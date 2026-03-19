@@ -22,7 +22,7 @@ swarmhawk scan --target acme-corp.com --mock
 
 MIT. Zero config. Works with no tools installed.
 
-github.com/hastikdan/swarmhawk 🧵
+github.com/hastikdan/swarmhawk-cli 🧵
 
 **Tweet 2:**
 The part I'm most proud of: 3-layer validation
@@ -52,7 +52,7 @@ Cloud = continuous monitoring, team access, weekly diff alerts
 
 If you use it in a pentest or CTF, I'd love to hear how it holds up.
 
-github.com/hastikdan/swarmhawk
+github.com/hastikdan/swarmhawk-cli
 
 ---
 
@@ -75,7 +75,7 @@ swarmhawk scan --target acme-corp.com --mock
 ```
 
 Open-source CLI. MIT.
-github.com/hastikdan/swarmhawk
+github.com/hastikdan/swarmhawk-cli
 
 ---
 
@@ -110,7 +110,7 @@ pip install swarmhawk
 swarmhawk scan --target yourdomain.com --mock
 ```
 
-github.com/hastikdan/swarmhawk
+github.com/hastikdan/swarmhawk-cli
 
 Contributions welcome. Especially interested in: new vulnerability checks, Nuclei template sets for specific tech stacks (SAP, WordPress, Laravel), and SIEM integrations.
 
@@ -140,4 +140,4 @@ A few things that might be interesting to this community:
 
 MIT license. Would love feedback from people who run nuclei at scale — especially on the false positive filtering approach.
 
-github.com/hastikdan/swarmhawk
+github.com/hastikdan/swarmhawk-cli

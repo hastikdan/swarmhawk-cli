@@ -12,7 +12,7 @@
 **Autonomous external attack surface assessment.**
 Recon → Exploit Detection → AI Synthesis → Report. One command.
 
-[![Tests](https://github.com/hastikdan/swarmhawk/actions/workflows/test.yml/badge.svg)](https://github.com/hastikdan/swarmhawk/actions)
+[![Tests](https://github.com/hastikdan/swarmhawk-cli/actions/workflows/test.yml/badge.svg)](https://github.com/hastikdan/swarmhawk-cli/actions)
 [![PyPI](https://img.shields.io/pypi/v/swarmhawk?color=blue)](https://pypi.org/project/swarmhawk/)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -124,7 +124,7 @@ pip install swarmhawk
 ### From source
 
 ```bash
-git clone https://github.com/hastikdan/swarmhawk.git
+git clone https://github.com/hastikdan/swarmhawk-cli.git
 cd swarmhawk
 pip install -e .
 ```
@@ -348,7 +348,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: hastikdan/swarmhawk-action@v1
+      - uses: hastikdan/swarmhawk-cli-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           fail_on_critical: 'true'
@@ -424,7 +424,7 @@ MIT — see [LICENSE](LICENSE).
 
 <div align="center">
 
-**[swarmhawk.ai](https://swarmhawk.ai)** · [Docs](https://swarmhawk.ai/docs) · [Cloud Platform](https://swarmhawk.ai) · [Report a Bug](https://github.com/hastikdan/swarmhawk/issues)
+**[swarmhawk.ai](https://swarmhawk.ai)** · [Docs](https://swarmhawk.ai/docs) · [Cloud Platform](https://swarmhawk.ai) · [Report a Bug](https://github.com/hastikdan/swarmhawk-cli/issues)
 
 *Built with ♥ by the SwarmHawk AI team and contributors.*
 

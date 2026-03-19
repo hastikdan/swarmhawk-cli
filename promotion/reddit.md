@@ -26,7 +26,7 @@ The piece I think r/netsec will find interesting: the audit log. Each entry's ha
 
 Runs in `--mock` mode with zero dependencies for demo/CI use.
 
-**GitHub:** https://github.com/hastikdan/swarmhawk
+**GitHub:** https://github.com/hastikdan/swarmhawk-cli
 **Install:** `pip install swarmhawk`
 
 Feedback welcome, especially on the validation pipeline — we're still tuning false positive rates across template categories.
@@ -58,7 +58,7 @@ Works in `--mock` mode with zero tools installed — generates synthetic finding
 
 MIT license. Contributions welcome, especially new vulnerability checks and template sets.
 
-https://github.com/hastikdan/swarmhawk
+https://github.com/hastikdan/swarmhawk-cli
 
 ---
 
@@ -88,7 +88,7 @@ Particularly useful for teams that need to demonstrate NIS2/ISO27001 compliance 
 
 MIT license. `pip install swarmhawk`
 
-https://github.com/hastikdan/swarmhawk
+https://github.com/hastikdan/swarmhawk-cli
 
 ---
 
@@ -128,4 +128,4 @@ cli.py      — CLI entry point
 
 MIT license. Python 3.11+. PRs welcome.
 
-https://github.com/hastikdan/swarmhawk
+https://github.com/hastikdan/swarmhawk-cli

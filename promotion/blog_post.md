@@ -183,7 +183,7 @@ pip install swarmhawk
 swarmhawk scan --target yourdomain.com --mock
 ```
 
-GitHub: https://github.com/hastikdan/swarmhawk
+GitHub: https://github.com/hastikdan/swarmhawk-cli
 
 The cloud platform adds continuous monitoring, team access, and weekly diff reports — but the core pipeline is free, open, and auditable.
 

@@ -1,7 +1,7 @@
 # Hacker News — Show HN
 
 **Post at:** Tuesday–Thursday, 9–11am ET
-**URL to submit:** https://github.com/hastikdan/swarmhawk
+**URL to submit:** https://github.com/hastikdan/swarmhawk-cli
 
 ---
 

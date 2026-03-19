@@ -3,11 +3,11 @@
 ## Technical (do first — one time setup)
 
 - [ ] Create GitHub org: `github.com/hastikdan`
-- [ ] Create repo: `hastikdan/swarmhawk` (public)
+- [ ] Create repo: `hastikdan/swarmhawk-cli` (public)
 - [ ] Push the committed code:
   ```bash
   cd swarmhawk_mvp
-  git remote add origin https://github.com/hastikdan/swarmhawk.git
+  git remote add origin https://github.com/hastikdan/swarmhawk-cli.git
   git push -u origin main
   ```
 - [ ] Add GitHub repo topics: `security`, `penetration-testing`, `nuclei`, `vulnerability-scanner`, `attack-surface`, `osint`, `python`, `cli`
@@ -16,7 +16,7 @@
 - [ ] Enable GitHub Discussions
 - [ ] Set up PyPI trusted publishing:
   - Go to pypi.org → "Your projects" → Add project → Publishing
-  - Add GitHub publisher: repo `hastikdan/swarmhawk`, workflow `publish.yml`, environment `pypi`
+  - Add GitHub publisher: repo `hastikdan/swarmhawk-cli`, workflow `publish.yml`, environment `pypi`
 - [ ] Create first GitHub Release: tag `v1.0.0`, title `SwarmHawk v1.0.0 — open-source release`
   - This triggers the PyPI publish workflow automatically
 - [ ] Verify `pip install swarmhawk` works after publish

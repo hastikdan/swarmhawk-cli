@@ -26,7 +26,7 @@ A few things that might make it worth a mention:
 - Works in mock mode with zero tools for CI/CD integration
 - MIT licensed, 27 tests, Python 3.11+
 
-GitHub: https://github.com/hastikdan/swarmhawk
+GitHub: https://github.com/hastikdan/swarmhawk-cli
 
 No pressure at all — just thought it fit the tools section. Happy to answer any technical questions.
 
@@ -51,7 +51,7 @@ The architecture might interest you given your writing on AI+security intersecti
 - The AI step generates business impact narratives and remediation steps from raw technical findings
 - Every agent action is recorded in a tamper-evident audit log (SHA-256 hash chain)
 
-MIT license. https://github.com/hastikdan/swarmhawk
+MIT license. https://github.com/hastikdan/swarmhawk-cli
 
 Just wanted to put it on your radar. Thanks for everything you put out.
 
@@ -72,7 +72,7 @@ The thing that differentiates it from just running Nuclei directly: a 3-layer va
 
 MIT license. `pip install swarmhawk`.
 
-https://github.com/hastikdan/swarmhawk
+https://github.com/hastikdan/swarmhawk-cli
 
 [Your name]
 
@@ -83,7 +83,7 @@ https://github.com/hastikdan/swarmhawk
 **Note:** Submit as a "tool of interest" — keep it very short
 
 Title: SwarmHawk — open-source autonomous external attack surface scanner
-URL: https://github.com/hastikdan/swarmhawk
+URL: https://github.com/hastikdan/swarmhawk-cli
 Summary: MIT-licensed Python CLI that chains subfinder, httpx, and Nuclei with NVD/EPSS CVE enrichment and AI synthesis (Claude/OpenAI) into a single attack surface assessment pipeline. Produces HTML/PDF reports and tamper-evident audit logs. Works in mock mode for CI use without external tools.
 
 ---
@@ -94,4 +94,4 @@ Summary: MIT-licensed Python CLI that chains subfinder, httpx, and Nuclei with N
 
 SwarmHawk is an open-source Python CLI that automates external attack surface assessment. It chains subdomain enumeration (subfinder), live asset probing (httpx), vulnerability scanning (8,000+ Nuclei templates), NVD/EPSS CVE enrichment, and AI synthesis (Claude/OpenAI) into a single pipeline producing professional HTML/PDF reports with tamper-evident audit logs. The tool runs in demo mode without any external tools installed and is MIT-licensed.
 
-GitHub: https://github.com/hastikdan/swarmhawk
+GitHub: https://github.com/hastikdan/swarmhawk-cli
