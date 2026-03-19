@@ -1,0 +1,26 @@
+FROM python:3.11-slim
+
+LABEL org.opencontainers.image.title="SwarmHawk AI GitHub Action"
+LABEL org.opencontainers.image.description="Attack surface scanner for CI/CD pipelines"
+LABEL org.opencontainers.image.url="https://swarmhawk.ai"
+
+WORKDIR /app
+
+# git: repo metadata for auto-target-detection
+# jq: parse JSON in entrypoint.sh
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates curl wget git jq \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install the SwarmHawk Python package
+COPY pyproject.toml README.md ./
+COPY swarmhawk/ ./swarmhawk/
+RUN pip install --no-cache-dir -e .
+
+# Action-specific scripts
+COPY scripts/ ./scripts/
+
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]

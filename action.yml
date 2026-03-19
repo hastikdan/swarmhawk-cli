@@ -1,0 +1,66 @@
+name: 'SwarmHawk AI Security Scan'
+description: 'Autonomous attack surface scanner — recon, exploit detection, and AI synthesis on your domain. Posts findings as PR comments.'
+author: 'SwarmHawk AI'
+
+branding:
+  icon: 'shield'
+  color: 'blue'
+
+inputs:
+  target:
+    description: 'Target domain (e.g. acme-corp.com). Leave empty to auto-detect from repository homepage.'
+    required: false
+    default: ''
+  anthropic_api_key:
+    description: 'Anthropic API key for Claude-powered AI synthesis. Falls back to template-based synthesis if omitted.'
+    required: false
+    default: ''
+  nvd_api_key:
+    description: 'NVD API key for higher CVE enrichment rate limits (optional).'
+    required: false
+    default: ''
+  fail_on_critical:
+    description: 'Exit 1 if any critical findings are found.'
+    required: false
+    default: 'true'
+  fail_on_high:
+    description: 'Exit 1 if any high severity findings are found.'
+    required: false
+    default: 'false'
+  mock_mode:
+    description: 'Force mock mode — synthetic scan data, no external tools required. Use for testing the Action itself.'
+    required: false
+    default: 'false'
+  output_dir:
+    description: 'Directory on the runner to store reports and artifacts.'
+    required: false
+    default: '/tmp/swarmhawk-reports'
+  post_pr_comment:
+    description: 'Post a findings summary as a PR comment when triggered by a pull_request event.'
+    required: false
+    default: 'true'
+
+outputs:
+  findings_json:
+    description: 'Absolute path to the generated findings JSON file.'
+  report_html:
+    description: 'Absolute path to the generated HTML report.'
+  critical_count:
+    description: 'Number of critical severity findings.'
+  high_count:
+    description: 'Number of high severity findings.'
+  risk_score:
+    description: 'Computed risk score (0–100).'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile.action'
+  env:
+    ANTHROPIC_API_KEY: ${{ inputs.anthropic_api_key }}
+    NVD_API_KEY: ${{ inputs.nvd_api_key }}
+    INPUT_TARGET: ${{ inputs.target }}
+    INPUT_FAIL_ON_CRITICAL: ${{ inputs.fail_on_critical }}
+    INPUT_FAIL_ON_HIGH: ${{ inputs.fail_on_high }}
+    INPUT_MOCK_MODE: ${{ inputs.mock_mode }}
+    INPUT_OUTPUT_DIR: ${{ inputs.output_dir }}
+    INPUT_POST_PR_COMMENT: ${{ inputs.post_pr_comment }}
