@@ -54,6 +54,6 @@ Today we're open-sourcing the CLI under MIT. The cloud platform stays paid — s
 We're particularly interested in security community contributions — new vulnerability checks, Nuclei template curation for specific stacks, integrations with Jira/Slack/Splunk.
 
 GitHub: https://github.com/hastikdan/swarmhawk-cli
-Cloud: https://swarmhawk.ai
+Cloud: https://swarmhawk.com
 
 Happy to answer anything!

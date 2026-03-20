@@ -12,7 +12,7 @@
 
 If you discover a security vulnerability in SwarmHawk itself (not a finding produced by SwarmHawk against a third-party target), please report it privately:
 
-**Email:** security@swarmhawk.ai
+**Email:** security@swarmhawk.com
 **Subject:** `[SECURITY] <brief description>`
 
 Include:
@@ -37,7 +37,7 @@ We will credit you in the release notes (unless you prefer to remain anonymous).
 
 In scope: the SwarmHawk CLI source code, its dependencies, and the PyPI package.
 
-Out of scope: SwarmHawk's cloud platform (swarmhawk.ai) — please use the cloud platform's own responsible disclosure process at swarmhawk.ai/security.
+Out of scope: SwarmHawk's cloud platform (swarmhawk.com) — please use the cloud platform's own responsible disclosure process at swarmhawk.com/security.
 
 ## Ethical Use
 

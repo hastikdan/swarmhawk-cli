@@ -7,10 +7,10 @@ name = "swarmhawk"
 version = "1.0.0"
 description = "Autonomous AI-powered external attack surface assessment"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 requires-python = ">=3.11"
 authors = [
-  {name = "SwarmHawk AI", email = "founder@swarmhawk.ai"}
+  {name = "SwarmHawk AI", email = "founder@swarmhawk.com"}
 ]
 keywords = ["cybersecurity", "penetration-testing", "vulnerability-scanning", "ai", "attack-surface", "nuclei", "recon", "osint"]
 classifiers = [
@@ -18,7 +18,6 @@ classifiers = [
   "Environment :: Console",
   "Intended Audience :: Information Technology",
   "Intended Audience :: Developers",
-  "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Topic :: Security",
@@ -42,9 +41,9 @@ dev = [
 swarmhawk = "swarmhawk.cli:main"
 
 [project.urls]
-Homepage = "https://swarmhawk.ai"
-Repository = "https://github.com/swarmhawk-ai/swarmhawk"
-Issues = "https://github.com/swarmhawk-ai/swarmhawk/issues"
+Homepage = "https://swarmhawk.com"
+Repository = "https://github.com/hastikdan/swarmhawk-cli"
+Issues = "https://github.com/hastikdan/swarmhawk-cli/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]

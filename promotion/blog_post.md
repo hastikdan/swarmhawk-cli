@@ -1,7 +1,7 @@
 # Blog Post — Technical Deep Dive
 
 **Title:** How we built a tamper-evident audit log for penetration testing reports
-**Publish on:** swarmhawk.ai/blog → cross-post to dev.to → Medium (security tag)
+**Publish on:** swarmhawk.com/blog → cross-post to dev.to → Medium (security tag)
 **Target keywords:** pentest automation python, nuclei automation, attack surface management open source, penetration testing audit log
 **Length:** ~1,800 words
 
@@ -189,4 +189,4 @@ The cloud platform adds continuous monitoring, team access, and weekly diff repo
 
 ---
 
-*SwarmHawk AI — swarmhawk.ai*
+*SwarmHawk AI — swarmhawk.com*

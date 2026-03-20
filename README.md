@@ -388,7 +388,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, conventions, and the PR proces
 
 ## ☁️ SwarmHawk Cloud
 
-The CLI is open-source. The [cloud platform](https://swarmhawk.ai) adds:
+The CLI is open-source. The [cloud platform](https://swarmhawk.com) adds:
 
 | Feature | CLI (OSS) | Cloud |
 |---------|-----------|-------|
@@ -401,7 +401,7 @@ The CLI is open-source. The [cloud platform](https://swarmhawk.ai) adds:
 | SOC2/ISO27001 evidence packs | — | ✓ |
 | Priority support | — | ✓ |
 
-[Start free →](https://swarmhawk.ai)
+[Start free →](https://swarmhawk.com)
 
 ---
 
@@ -424,7 +424,7 @@ MIT — see [LICENSE](LICENSE).
 
 <div align="center">
 
-**[swarmhawk.ai](https://swarmhawk.ai)** · [Docs](https://swarmhawk.ai/docs) · [Cloud Platform](https://swarmhawk.ai) · [Report a Bug](https://github.com/hastikdan/swarmhawk-cli/issues)
+**[swarmhawk.com](https://swarmhawk.com)** · [Docs](https://swarmhawk.com/docs) · [Cloud Platform](https://swarmhawk.com) · [Report a Bug](https://github.com/hastikdan/swarmhawk-cli/issues)
 
 *Built with ♥ by the SwarmHawk AI team and contributors.*
 

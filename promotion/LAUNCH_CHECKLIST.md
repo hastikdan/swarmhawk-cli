@@ -12,7 +12,7 @@
   ```
 - [ ] Add GitHub repo topics: `security`, `penetration-testing`, `nuclei`, `vulnerability-scanner`, `attack-surface`, `osint`, `python`, `cli`
 - [ ] Set repo description: "Autonomous external attack surface assessment — recon → exploit detection → AI synthesis → report"
-- [ ] Set repo website: `https://swarmhawk.ai`
+- [ ] Set repo website: `https://swarmhawk.com`
 - [ ] Enable GitHub Discussions
 - [ ] Set up PyPI trusted publishing:
   - Go to pypi.org → "Your projects" → Add project → Publishing
@@ -51,7 +51,7 @@
 - [ ] Submit to SANS ISC → copy from `promotion/newsletters.md`
 - [ ] Submit tip to The Hacker News → copy from `promotion/newsletters.md`
 - [ ] Open PR to nuclei-templates repo → copy from `promotion/nuclei_pr.md`
-- [ ] Publish blog post on swarmhawk.ai → copy from `promotion/blog_post.md`
+- [ ] Publish blog post on swarmhawk.com → copy from `promotion/blog_post.md`
 - [ ] Cross-post blog to dev.to
 - [ ] Cross-post blog to Medium (security tag)
 
